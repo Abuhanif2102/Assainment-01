@@ -1,0 +1,110 @@
+.orange-color {
+    color: orange;
+}
+
+.half-width {
+
+    width: 50%;
+
+}
+
+.top-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-left: 2%;
+    margin-bottom: 150px;
+}
+
+#mission-title {
+    border-left: 3px solid red;
+    padding-left: 10px;
+
+}
+
+.top-section img {
+    width: 70%;
+}
+
+.login-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-bottom: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(red, yellow);
+}
+
+.middle-zone {
+    text-align: center;
+}
+
+.Mission-section {
+    display: flex;
+
+    justify-content: space-between;
+    margin-bottom: 150px;
+    width: 80%;
+    margin: auto
+}
+
+#picture-decoration {
+    width: 95%;
+    height: 95%;
+}
+
+#application-zone {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.Mission-section img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.first-div {
+    background-color: lemonchiffon;
+    width: 28%;
+    padding: 2%;
+}
+
+.finishing-part {
+    text-align: center;
+    background-color: bisque;
+    color: black;
+
+}
+
+.second-div {
+    background-color: antiquewhite;
+    width: 28%;
+    padding: 2%;
+}
+
+.third-div {
+    background-color: orchid;
+    width: 28%;
+    padding: 2%;
+}
+
+#year-color {
+    color: blueviolet;
+
+}
+
+#develop {
+    margin-top: 150px;
+    width: 80%;
+    margin: 150px auto;
+}
+
+@media (max-700px) {
+    section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
